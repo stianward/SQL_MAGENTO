@@ -1,0 +1,31 @@
+CREATE TABLE users (
+id INT AUTO_INCREMENT PRIMARY KEY,
+nameUser VARCHAR(30) NOT NULL,
+identification VARCHAR(15)NOT NULL,
+status CHAR(1) NOT NULL,
+password VARCHAR(100) NOT NULL,
+cPassword VARCHAR(100)NOT NULL,
+rol INT NOT NULL,
+createAt VARCHAR(20)
+)
+;
+
+
+CREATE table
+
+
+
+
+
+
+
+
+
+
+
+
+
+SELECT *
+FROM users
+
+DROP TABLE users
